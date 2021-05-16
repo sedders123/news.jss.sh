@@ -123,6 +123,7 @@ namespace news.jss.sh
             "https://shopify.engineering/blog.atom",
 	    "https://www.cassie.codes/feed.xml",
             "https://swharden.com/blog/feed/",
+            "https://dylmye.me/feed.xml",
         };
 
         private Dictionary<string, string> _hostOverrides = new Dictionary<string, string>() {
