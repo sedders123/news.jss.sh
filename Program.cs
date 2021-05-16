@@ -78,7 +78,7 @@ namespace news.jss.sh
             "https://davidwalsh.name/feed",
             "https://brendanforster.com/notes/index.xml",
             "http://feeds.haacked.com/haacked",
-            "http://irisclasson.com/feed/",
+            "https://www.irisclasson.com/index.xml",
             "https://blog.jonskeet.uk/feed/",
             "https://claires.site/feed/",
             "http://www.roji.org/feed",
