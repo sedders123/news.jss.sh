@@ -46,7 +46,7 @@ namespace news.jss.sh
             "https://www.encode.io/feeds/articles.rss",
             "https://engineering.fb.com/feed/",
             "https://medium.com/feed/netflix-techblog",
-            "https://trickey.io/posts/index.xml",
+            "https://trickey.io/index.xml",
             "https://feeds.feedburner.com/PythonInsider",
             "https://www.raspberrypi.org/feed/",
             "https://stackshare.io/featured-posts.atom",
