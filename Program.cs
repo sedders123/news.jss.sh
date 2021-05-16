@@ -121,7 +121,8 @@ namespace news.jss.sh
             "https://tisiphone.net/feed/",
             "https://tooslowexception.com/feed/",
             "https://engineering.shopify.com/blogs/engineering.atom",
-	    "https://www.cassie.codes/feed.xml"
+	    "https://www.cassie.codes/feed.xml",
+            "https://swharden.com/blog/feed/",
         };
 
         private Dictionary<string, string> _hostOverrides = new Dictionary<string, string>() {
