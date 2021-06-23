@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using CodeHollow.FeedReader;
+using CodeHollow.FeedReader.Feeds;
 using Scriban;
 
 namespace news.jss.sh
@@ -121,7 +122,7 @@ namespace news.jss.sh
             "https://tisiphone.net/feed/",
             "https://tooslowexception.com/feed/",
             "https://shopify.engineering/blog.atom",
-	    "https://www.cassie.codes/feed.xml",
+	        "https://www.cassie.codes/feed.xml",
             "https://swharden.com/blog/feed/",
             "https://dylmye.me/feed.xml",
         };
@@ -172,6 +173,13 @@ namespace news.jss.sh
             try
             {
                 var feed = await FeedReader.ReadAsync(url, cancel);
+                if(feed.Type == FeedType.Atom){
+                    var atomFeed = (AtomFeed)feed.SpecificFeed;
+                    return atomFeed.Items.Cast<AtomFeedItem>()
+                        .Where(i => i.PublishedDate >= DateTime.UtcNow.Add(RelevantDuration))
+                        .Select(i => new FeedItemWithHost { Title = i.Title, Link = i.Links.FirstOrDefault(l => l.Relation == "alternate")?.Href ?? i.Link, PublishingDate = i.PublishedDate, FeedUrl = url })
+                        .ToArray();
+                }
                 return feed.Items
                     .Where(i => i.PublishingDate >= DateTime.UtcNow.Add(RelevantDuration))
                     .Select(i => new FeedItemWithHost { Title = i.Title, Link = i.Link, PublishingDate = i.PublishingDate, FeedUrl = url })
