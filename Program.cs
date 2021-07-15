@@ -102,7 +102,7 @@ namespace news.jss.sh
             "https://emilyemorehouse.com/rss.xml",
             "http://feeds.newtonking.com/jamesnewtonking",
             "https://blog.alicegoldfuss.com/feed.xml",
-            "https://rob.conery.io/feed/",
+            "https://rob.conery.io/feed",
             "https://devonzuegel.com/feed.xml",
             "https://kevinmontrose.com/feed/",
             "https://dizzyd.com/index.xml",
