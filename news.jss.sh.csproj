@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CodeHollow.FeedReader" Version="1.2.1" />
+    <PackageReference Include="CodeHollow.FeedReader" Version="1.2.2" />
     <PackageReference Include="Scriban" Version="4.0.1" />
   </ItemGroup>
 
