@@ -84,7 +84,7 @@ namespace news.jss.sh
             "https://claires.site/feed/",
             "http://www.roji.org/feed",
             "https://blog.ganssle.io/feeds/all.atom.xml",
-            "https://angiejones.tech/feed",
+            "https://angiejones.tech/feed/",
             "https://edwardthomson.com/blog/rss.xml",
             "https://bakedbean.org.uk/index.xml",
             "https://m0sa.net/index.xml",
