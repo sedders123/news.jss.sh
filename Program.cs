@@ -156,7 +156,7 @@ namespace news.jss.sh
                 {
                     Title = i.Title,
                     Link = i.Link,
-                    Host = _hostOverrides.ContainsKey(i.FeedUrl) ? _hostOverrides[i.FeedUrl] : new Uri(i.Link).Host
+                    Host = _hostOverrides.ContainsKey(i.FeedUrl) ? _hostOverrides[i.FeedUrl] : i.Link != null ? new Uri(i.Link).Host : null
                 })
             });
             using (var outputFile = new StreamWriter(Path.Combine("docs", "index.html")))
