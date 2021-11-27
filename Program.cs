@@ -126,6 +126,7 @@ namespace news.jss.sh
             "https://swharden.com/blog/feed/",
             "https://dylmye.me/feed.xml",
 	    "https://www.joshwcomeau.com/rss.xml",
+	    "https://www.skybound.link/index.xml",
         };
 
         private Dictionary<string, string> _hostOverrides = new Dictionary<string, string>() {
