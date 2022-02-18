@@ -42,7 +42,6 @@ namespace news.jss.sh
             "https://code.visualstudio.com/feed.xml",
             "https://devblogs.microsoft.com/python/feed/",
             "https://devblogs.microsoft.com/commandline/feed/",
-            "https://devblogs.microsoft.com/aspnet/feed/",
             "https://routley.io/posts/index.xml",
             "https://www.encode.io/feeds/articles.rss",
             "https://engineering.fb.com/feed/",
