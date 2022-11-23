@@ -88,7 +88,7 @@ namespace news.jss.sh
             "https://bakedbean.org.uk/index.xml",
             "https://m0sa.net/index.xml",
             "https://den.dev/index.xml",
-            "https://localghost.dev/index.xml",
+            "https://localghost.dev/feed.xml",
             "https://dustingram.com/atom.xml",
             "https://snarky.ca/rss/",
             "https://natemcmaster.com/feed",
