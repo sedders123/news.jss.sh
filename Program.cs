@@ -129,6 +129,7 @@ namespace news.jss.sh
 	    "https://studentrobotics.org/srawn/rss.xml",
 	    "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
 	    "https://infrequently.org/feed/",
+	    "https://blog.pypi.org/feed_rss_created.xml",
         };
 
         private Dictionary<string, string> _hostOverrides = new Dictionary<string, string>() {
