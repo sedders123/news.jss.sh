@@ -132,6 +132,7 @@ namespace news.jss.sh
 	    "https://blog.pypi.org/feed_rss_created.xml",
 	    "https://web-dev-rss.bramus.workers.dev/blog",
 	    "https://chrome-for-developers-rss.bramus.workers.dev/blog",
+	    "https://github.com/dotnet/core/discussions.atom",
         };
 
         private Dictionary<string, string> _hostOverrides = new Dictionary<string, string>() {
